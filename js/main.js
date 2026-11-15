@@ -31,8 +31,9 @@ function hydrate(root = document) {
 const ASSET_V = 3;   // bump when plate / side photos are replaced, so browsers drop cached copies
 const pastas = [
   { name: 'Catering Services', short: 'Catering', slug: 'dish-one', h: 30, src: DISH, scenes: { left: SCN_L, right: SCN_R }, full: true, desc: 'Authentic flavours, freshly prepared for every celebration.' },
-  { name: 'Starters', short: 'Starters', slug: 'starters', h: 200, src: SCN2_L, pos: '50% 52%', zoom: '115% auto', scenes: { left: SCN2_L, right: SCN2_R }, full: true, desc: 'Short description of our starters goes here. Content coming soon.' },
-  { name: 'Sweets', short: 'Sweets', slug: 'sweets', h: 120, src: SCN3_R, scenes: { left: SCN3_L, right: SCN3_R }, full: true, desc: 'Short description of our sweets goes here. Content coming soon.' },
+  { name: 'Starters', short: 'Starters', slug: 'starters', h: 200, src: SCN2_L, pos: '50% 52%', zoom: '115% auto', scenes: { left: SCN2_L, right: SCN2_R }, full: true, desc: 'Delicious, freshly prepared starters to make every occasion special..' },
+  { name: 'Sweets', short: 'Sweets', slug: 'sweets', h: 120, src: SCN3_R, scenes: { left: SCN3_L, right: SCN3_R }, full: true, desc: 'Delightful, homemade sweets to add sweetness to every celebration.
+     .' },
 ];
 const N = pastas.length, MID = (N - 1) / 2;
 const isMobile = () => matchMedia('(max-width:820px)').matches;
